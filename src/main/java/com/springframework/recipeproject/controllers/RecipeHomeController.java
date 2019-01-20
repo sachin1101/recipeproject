@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class RecipeHomeController {
 
-    @RequestMapping({"", "/","/index"})
+    @RequestMapping({"", "/","/index", "/test"})
     public String home()
     {
         System.out.println("122343536");
